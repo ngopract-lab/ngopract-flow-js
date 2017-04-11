@@ -9,5 +9,5 @@ function acceptsUndefined(value: void) {
 
 acceptsNull(null);      // Works!
 // acceptsNull(undefined); // Error!
-acceptsUndefined(null);      // Error!
-// acceptsUndefined(undefined); // Works!
+// acceptsUndefined(null);      // Error!
+acceptsUndefined(undefined); // Works!
