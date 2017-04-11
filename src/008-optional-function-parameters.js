@@ -3,7 +3,7 @@ function acceptsOptionalString(value?: string) {
   // ...
 }
 
-acceptsOptionalString("bar");
-acceptsOptionalString(undefined);
-acceptsOptionalString(null);
-acceptsOptionalString();
+acceptsOptionalString("bar"); // OK
+// acceptsOptionalString(undefined); // ERROR
+// acceptsOptionalString(null); // ERROR
+// acceptsOptionalString(); // ERROR
